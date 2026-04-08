@@ -1,15 +1,5 @@
 streamlit==1.24.1
 pandas==1.4.4
 numpy==1.23.5
-matplotlib==3.7.1
-seaborn==0.12.2
 plotly==5.15.0
-scikit-surprise==1.1.3
-scikit-learn==1.2.2
 pillow==9.5.0
-
-# For rendering plots in Streamlit
- kaleido==0.2.1
-
-# Optional 
-python-dotenv==1.0.0
