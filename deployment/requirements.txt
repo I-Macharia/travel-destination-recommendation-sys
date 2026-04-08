@@ -1,6 +1,5 @@
 absl-py==1.4.0
 aiohttp
-aiosignal
 altair==5.0.1
 astunparse==1.6.3
 blinker==1.6.2
@@ -16,7 +15,7 @@ GitPython==3.1.32
 google-auth==2.20.0
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
-grpcio==1.54.2
+grpcio>=1.54.0  # loosened so it can pick a compatible wheel
 huggingface-hub
 Jinja2
 joblib
